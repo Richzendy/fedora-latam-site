@@ -14,8 +14,8 @@ app.get('/', function (req, res) {
         if(update && update.summary.changes) {
            require('child_process').exec('npm restart',function(error, stdout, stderr) {
               if (error) {
-                console.error(`exec error: ${error}`);
-                console.log(`stderr: ${stderr}`);
+                console.error('exec error: ', error);
+                console.log('stderr: ', stderr);
                 return;
               }
               console.log(stdout);
