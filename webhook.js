@@ -16,10 +16,13 @@ app.get('/', function (req, res) {
               if (error) {
                 console.error('exec error: ', error);
                 console.log('stderr: ', stderr);
-                return;
+                res.json({success: false, err: error});
               }
+              res.json({success: true});
               console.log(stdout);
             });
+        } else {
+          res.json({success: true});
         }
       });
 });
