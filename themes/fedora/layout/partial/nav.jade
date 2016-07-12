@@ -7,14 +7,15 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-custom
                 span.icon-bar
                 span.icon-bar
             a(class="navbar-brand", href=url_for())
-              img.long(src=url_for(theme.logo.long))
-              img.short(src=url_for(theme.logo.short))
+              img.long.hidden-xs(src=url_for(theme.logo.long))
+              img.short.hidden-xs(src=url_for(theme.logo.short))
+              img..visible-xs-block(src=url_for(theme.logo.short))
         #main-navbar.collapse.navbar-collapse
             ul.nav.navbar-nav.navbar-right
                 each value, key in theme["navbar-links"]
                     li
                         a(href=url_for(value))!= key
-        .avatar-container
+        .avatar-container.hidden-xs
             .avatar-img-border
                 a(href=url_for())
                     img(class="avatar-img", src=url_for(theme.avatar))
