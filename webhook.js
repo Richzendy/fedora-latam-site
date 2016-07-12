@@ -9,21 +9,15 @@ app.post('/', function (req, res) {
 
   git(__dirname)
      .pull(function(err, update) {
-
-       console.log('Paso');
-        if(update && update.summary.changes) {
-           require('child_process').exec('npm restart',function(error, stdout, stderr) {
-              if (error) {
-                console.error('exec error: ', error);
-                console.log('stderr: ', stderr);
-                res.json({success: false, err: error});
-              }
-              res.json({success: true});
-              console.log(stdout);
-            });
-        } else {
+       require('child_process').exec('npm restart',function(error, stdout, stderr) {
+          if (error) {
+            console.error('exec error: ', error);
+            console.log('stderr: ', stderr);
+            res.json({success: false, err: error});
+          }
           res.json({success: true});
-        }
+          console.log(stdout);
+        });
       });
 });
 
