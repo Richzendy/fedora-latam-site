@@ -3,7 +3,7 @@ var app = express();
 var git = require('simple-git');
 // executes `pwd`
 
-app.get('/', function (req, res) {
+app.post('/', function (req, res) {
 
   console.log(__dirname);
 
