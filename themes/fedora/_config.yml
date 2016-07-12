@@ -1,0 +1,54 @@
+navbar-links:
+    Blog: /archives
+    Wiki: https://fedoraproject.org/wiki/Fedora_Project_Wiki
+
+logo:
+  long: /logotype.png
+  short: /logo.png
+
+avatar: /avatar.png
+favicon: /avatar.png
+
+header:
+    title: "Elija libertad. Elija Fedora."
+    motto: Menos configuración, más innovación. Elija una versión de Fedora y póngase a trabajar de inmediato.
+    bigimgs:
+        - src: /bigimgs/00.jpg
+
+rss: /atom.xml
+googlefonts:
+  - "Lora:400,700,400italic,700italic"
+  - "Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+
+footer:
+  facebook:
+    link: 'https://www.facebook.com/TheFedoraProject'
+    title: Facebook
+    icon: fa-facebook
+    enable: true
+  gplus:
+    link: 'https://plus.google.com/112917221531140868607'
+    title: Google+
+    icon: fa-google-plus
+    enable: true
+  rss:
+    link: '/atom.xml'
+    title: RSS
+    icon: fa-rss
+    enable: false
+  twitter:
+    link: 'https://twitter.com/fedora'
+    title: Twitter
+    icon: fa-twitter
+    enable: true
+  help:
+    link: 'https://fedoraproject.org/wiki/Communicating_and_getting_help'
+    title: Obtener ayuda
+    icon: fa-question
+    enable: true
+
+google_analytics:
+
+comment:
+  enable: true
+  disqus: fedoralatam

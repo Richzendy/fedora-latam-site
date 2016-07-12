@@ -1,0 +1,6 @@
+mixin post_meta(date, tags)
+    p.post-meta Publicado el #{full_date(date, "MMM D YYYY")}
+        - tags.each(function(tag) {
+            = ' · '
+            a.tag.post-meta(href=url_for(tag.path))= tag.name
+        - })
