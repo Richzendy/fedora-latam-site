@@ -1,7 +1,6 @@
 var express = require('express');
 var app = express();
 var git = require('simple-git');
-// executes `pwd`
 
 app.post('/', function (req, res) {
 
