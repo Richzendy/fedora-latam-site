@@ -9,7 +9,7 @@ tags:
   ![Fedora 24 release](/images/banner.jpg)
 </div>
 
-La nueva versión de la distribución comunitaria de Red Hat llega, como es habitual, con un poco de retraso y otro poco de expectación que podéis dar por terminados. **Fedora 24** ya está disponible para descargar.
+Esta nueva versión de la distribución comunitaria de Red Hat llega, como es habitual, con un poco de retraso y otro poco de expectación que podéis dar por terminados. **Fedora 24** ya está disponible para descargar.
 
 Las novedades de Fedora 24 varían según la edición: Workstation (PC), Server, Cloud, etc.; pero en todas destaca el elemento principal, el kernel Linux 4.5. En cuanto a la Workstation, el entorno de escritorio por defecto es GNOME 3.20. Esto sería lo más señalado, que no lo único.
 
