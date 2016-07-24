@@ -8,6 +8,11 @@ app.post('/', function (req, res) {
 
   git(__dirname)
      .pull(function(err, update) {
+
+       if(err){
+         console.log(err);
+       }
+
        require('child_process').exec('npm restart',function(error, stdout, stderr) {
           if (error) {
             console.error('exec error: ', error);
