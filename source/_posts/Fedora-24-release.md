@@ -6,7 +6,7 @@ tags:
 ---
 
 <div class="img-wrapper left">
-  ![Fedora 24 release](/fedora/images/banner.jpg)
+  ![Fedora 24 release](/images/banner.jpg)
 </div>
 
 La nueva versión de la distribución comunitaria de Red Hat llega, como es habitual, con un poco de retraso y otro poco de expectación que podéis dar por terminados. **Fedora 24** ya está disponible para descargar.
